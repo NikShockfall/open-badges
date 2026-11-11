@@ -12,7 +12,7 @@
     "id": "https://hubspot.com",
     "name": "Inbound Certified",
     "description": "Certified in the inbound methodology, including attracting, engaging, and delighting customers using inbound marketing fundamentals.",
-    "image": "https://githubusercontent.com",
+    "image": "https://raw.githubusercontent.com/NikShockfall/open-badges/refs/heads/main/hubspot-inbound-badge.png",
     "criteria": {
       "narrative": "Passed the HubSpot Academy Inbound Certification exam and completed all required practical exercises."
     },

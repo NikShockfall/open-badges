@@ -9,7 +9,7 @@
   },
   "badge": {
     "type": "BadgeClass",
-    "id": "https://hubspot.com",
+    "id": "https://githubusercontent.com",
     "name": "Inbound Certified",
     "description": "Certified in the inbound methodology, including attracting, engaging, and delighting customers using inbound marketing fundamentals.",
     "image": "https://raw.githubusercontent.com/NikShockfall/open-badges/refs/heads/main/hubspot-inbound-badge.png",
@@ -18,7 +18,7 @@
     },
     "issuer": {
       "type": "Profile",
-      "id": "https://hubspot.com",
+      "id": "https://githubusercontent.com",
       "name": "HubSpot Academy",
       "url": "https://githubusercontent.com",
       "email": "academy@hubspot.com"

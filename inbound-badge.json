@@ -1,0 +1,35 @@
+{
+  "@context": "https://w3id.org",
+  "type": "Assertion",
+  "id": "https://githubusercontent.com",
+  "recipient": {
+    "type": "email",
+    "identity": "duhaylungsod.nikko@gmail.com",
+    "hashed": false
+  },
+  "badge": {
+    "type": "BadgeClass",
+    "id": "https://hubspot.com",
+    "name": "Inbound Certified",
+    "description": "Certified in the inbound methodology, including attracting, engaging, and delighting customers using inbound marketing fundamentals.",
+    "image": "https://githubusercontent.com",
+    "criteria": {
+      "narrative": "Passed the HubSpot Academy Inbound Certification exam and completed all required practical exercises."
+    },
+    "issuer": {
+      "type": "Profile",
+      "id": "https://hubspot.com",
+      "name": "HubSpot Academy",
+      "url": "https://hubspot.com",
+      "email": "academy@hubspot.com"
+    }
+  },
+  "evidence": [
+    {
+      "id": "https://hubspot.com",
+      "name": "HubSpot Academy Official Verification Record",
+      "description": "Certification ID: 98c6473afc3d4294809e6117b5df4fcf awarded to NIKKO DUHAYLUNGSOD in April 2025."
+    }
+  ],
+  "issuedOn": "2025-04-01T00:00:00Z"
+}

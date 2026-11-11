@@ -1,63 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200" role="img" aria-labelledby="title desc">
-  <title id="title">HubSpot Academy Inbound Certified</title>
-  <desc id="desc">A circular certification badge with a HubSpot-inspired emblem and ribbon banner.</desc>
+  <title id="title">HubSpot Academy Inbound Certified badge</title>
+  <desc id="desc">Circular HubSpot Academy badge with a blue ring, orange academy emblem, and dark blue ribbon reading Inbound Certified.</desc>
+
   <defs>
-    <linearGradient id="ringGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#2a3c4e"/>
-      <stop offset="100%" stop-color="#465a6f"/>
+    <path id="hubArc" d="M 250 470 A 350 350 0 0 1 1150 470"/>
+    <path id="hubArcLower" d="M 250 470 A 350 350 0 0 1 1150 470"/>
+    <linearGradient id="outerRing" x1="0" x2="1">
+      <stop offset="0%" stop-color="#384d5d"/>
+      <stop offset="100%" stop-color="#2d3d4d"/>
     </linearGradient>
-    <linearGradient id="innerGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f8f6f1"/>
-      <stop offset="100%" stop-color="#f0efe9"/>
+    <linearGradient id="badgeFill" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f4f0eb"/>
+      <stop offset="100%" stop-color="#e7e1d8"/>
     </linearGradient>
-    <linearGradient id="bannerGrad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#374d5d"/>
-      <stop offset="100%" stop-color="#2d3d4c"/>
+    <linearGradient id="ribbonGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3d5369"/>
+      <stop offset="100%" stop-color="#2b3d4e"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.15"/>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.12"/>
     </filter>
   </defs>
 
   <rect width="1400" height="1200" fill="#efefee"/>
 
-  <g filter="url(#shadow)">
-    <g transform="translate(700,610)">
-      <path d="M -420 175 A 420 420 0 0 1 420 175 L 410 205 A 390 390 0 0 0 -410 205 Z" fill="url(#ringGrad)"/>
-      <path d="M -400 145 A 400 400 0 0 1 400 145 L 385 175 A 375 375 0 0 0 -385 175 Z" fill="#2d4050" opacity="0.65"/>
+  <g filter="url(#softShadow)">
+    <g transform="translate(0,0)">
+      <circle cx="700" cy="500" r="392" fill="url(#outerRing)"/>
+      <circle cx="700" cy="500" r="349" fill="#f3f1ed" opacity="0.25"/>
 
-      <circle cx="0" cy="0" r="330" fill="url(#innerGrad)"/>
-      <circle cx="0" cy="0" r="290" fill="none" stroke="#f6a47d" stroke-width="18"/>
+      <path d="M 473 420 A 260 260 0 0 1 927 420" fill="none" stroke="#2a3d4d" stroke-width="16" opacity="0.8"/>
 
-      <path d="M -270 0 A 270 270 0 0 1 270 0 L 210 0 A 210 210 0 0 0 -210 0 Z" fill="#f4f0eb"/>
-      <path d="M -270 0 A 270 270 0 0 1 270 0 L 210 0 A 210 210 0 0 0 -210 0 Z" fill="none" stroke="#e7dcbf" stroke-width="2"/>
-
-      <g transform="translate(0,0)">
-        <circle cx="0" cy="0" r="135" fill="#f8f6f3"/>
-        <path d="M -92 0 A 92 92 0 0 1 92 0 L 62 0 A 62 62 0 0 0 -62 0 Z" fill="#ef8a5d"/>
-        <path d="M -92 0 A 92 92 0 0 1 92 0 L 62 0 A 62 62 0 0 0 -62 0 Z" transform="rotate(180)" fill="#f38c57"/>
-
-        <g transform="translate(0,0)">
-          <path d="M -80 0 L 0 -80 L 80 0 L 0 80 Z" fill="#ee6b52" opacity="0.9"/>
-          <path d="M -30 0 L 0 -30 L 30 0 L 0 30 Z" fill="#f9faf9" opacity="0.9"/>
-        </g>
-
-        <path d="M 13 0 A 40 40 0 1 1 -13 0" fill="none" stroke="#f8f6f3" stroke-width="18" stroke-linecap="round"/>
-        <path d="M -68 0 A 68 68 0 1 1 68 0" fill="none" stroke="#ffb98d" stroke-width="15" stroke-linecap="round" opacity="0.8"/>
+      <g font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#2f4455">
+        <text font-size="160" letter-spacing="-6">
+          <textPath href="#hubArc" startOffset="50%" text-anchor="middle">HubSpot Academy</textPath>
+        </text>
       </g>
 
-      <g aria-label="HubSpot" fill="#2d3c4d" font-family="Arial, Helvetica, sans-serif" font-weight="700">
-        <text x="0" y="-122" font-size="128" text-anchor="middle" letter-spacing="-5">HubSpot</text>
+      <circle cx="700" cy="520" r="250" fill="url(#badgeFill)"/>
+      <circle cx="700" cy="520" r="247" fill="none" stroke="#f7e8dc" stroke-width="2" opacity="0.7"/>
+
+      <circle cx="700" cy="520" r="210" fill="none" stroke="#f58a5d" stroke-width="26"/>
+      <circle cx="700" cy="520" r="126" fill="#f5efe9"/>
+
+      <path d="M 653 520 A 47 47 0 1 1 747 520" fill="none" stroke="#f7bf9d" stroke-width="18" stroke-linecap="round"/>
+      <path d="M 600 505 A 120 120 0 1 1 800 505" fill="none" stroke="#f28a5b" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
+
+      <g transform="translate(700 520)">
+        <path d="M -88 0 A 88 88 0 0 1 88 0" fill="none" stroke="#ea6b49" stroke-width="46" stroke-linecap="round"/>
+        <path d="M -55 0 A 55 55 0 0 1 55 0" fill="none" stroke="#f5efe9" stroke-width="38" stroke-linecap="round"/>
+        <path d="M -46 -6 L 0 -46 L 46 -6 L 0 34 Z" fill="#f15d3d" opacity="0.95"/>
+        <path d="M -18 -8 L 0 -18 L 18 -8 L 0 18 Z" fill="#f9f7f3"/>
       </g>
 
-      <g aria-label="Academy" fill="#2d3c4d" font-family="Arial, Helvetica, sans-serif" font-weight="700">
-        <text x="0" y="-30" font-size="84" text-anchor="middle">Academy</text>
+      <g aria-label="small icon" transform="translate(700 485)">
+        <circle cx="0" cy="0" r="15" fill="#f58d5d"/>
+        <circle cx="0" cy="0" r="7" fill="#f8f0e8"/>
       </g>
 
-      <g transform="translate(0, 190)">
-        <path d="M -420 0 L 420 0 L 390 88 L -390 88 Z" fill="url(#bannerGrad)"/>
-        <path d="M -420 0 L 420 0 L 390 88 L -390 88 Z" fill="none" stroke="#2a3d4c" stroke-width="5"/>
-        <text x="0" y="60" text-anchor="middle" fill="#f3f5f6" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-4">INBOUND CERTIFIED</text>
+      <g transform="translate(700 865)">
+        <path d="M -460 0 L 460 0 L 430 92 L -430 92 Z" fill="url(#ribbonGrad)"/>
+        <path d="M -470 0 L 470 0 L 440 110 L -440 110 Z" fill="none" stroke="#2b3d4e" stroke-width="5" opacity="0.7"/>
+        <text x="0" y="60" text-anchor="middle" fill="#f2f3f3" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" letter-spacing="-3">INBOUND CERTIFIED</text>
       </g>
     </g>
   </g>

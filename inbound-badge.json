@@ -1,5 +1,5 @@
 {
-  "@context": "https://w3id.org",
+  "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
   "id": "https://githubusercontent.com",
   "recipient": {
@@ -20,7 +20,7 @@
       "type": "Profile",
       "id": "https://hubspot.com",
       "name": "HubSpot Academy",
-      "url": "https://hubspot.com",
+      "url": "https://githubusercontent.com",
       "email": "academy@hubspot.com"
     }
   },
@@ -31,5 +31,8 @@
       "description": "Certification ID: 98c6473afc3d4294809e6117b5df4fcf awarded to NIKKO DUHAYLUNGSOD in April 2025."
     }
   ],
-  "issuedOn": "2025-04-01T00:00:00Z"
+  "issuedOn": "2025-04-01T00:00:00Z",
+  "verification": {
+    "type": "hosted"
+  }
 }

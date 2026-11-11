@@ -1,5 +1,5 @@
 {
-  "@context": "https://w3id.org/openbadges/v2",
+  "@context": "https://w3id.org",
   "type": "Assertion",
   "id": "https://githubusercontent.com",
   "recipient": {
@@ -9,16 +9,16 @@
   },
   "badge": {
     "type": "BadgeClass",
-    "id": "https://githubusercontent.com",
+    "id": "https://githubusercontent.com#badge",
     "name": "Inbound Certified",
     "description": "Certified in the inbound methodology, including attracting, engaging, and delighting customers using inbound marketing fundamentals.",
-    "image": "https://raw.githubusercontent.com/NikShockfall/open-badges/refs/heads/main/hubspot-inbound-badge.png",
+    "image": "https://githubusercontent.com",
     "criteria": {
       "narrative": "Passed the HubSpot Academy Inbound Certification exam and completed all required practical exercises."
     },
     "issuer": {
       "type": "Profile",
-      "id": "https://githubusercontent.com",
+      "id": "https://githubusercontent.com#issuer",
       "name": "HubSpot Academy",
       "url": "https://githubusercontent.com",
       "email": "academy@hubspot.com"
